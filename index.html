@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ribalta Sonora: O Palco em Suas Orelhas</title>
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #121212;
+            color: #ffffff;
+            font-family: 'Roboto', sans-serif;
+        }
+        .navbar, .footer {
+            background-color: #f4e8e8;
+        }
+        .jumbotron {
+            background: #1F1F1F;
+            padding: 4rem 2rem;
+            border-radius: 0;
+        }
+        .podcast-title {
+            font-family: 'Playfair Display', serif;
+            color: #D4AF37; /* Gold color */
+            font-size: 3.5rem;
+        }
+        .podcast-subtitle {
+            font-size: 1.25rem;
+            color: #ff9500;
+        }
+        .cover-art {
+            width: 300px;
+            height: 300px;
+            border: 3px solid #D4AF37;
+            border-radius: 8px;
+        }
+        .btn-listen {
+            background-color: #D4AF37;
+            color: #121212;
+            border: none;
+            font-weight: bold;
+        }
+        .btn-listen:hover {
+            background-color: #E6C35C;
+            color: #121212;
+        }
+        .episode-card {
+            background-color: #fda611;
+            border: 1px solid #ff8000;
+            margin-bottom: 1.5rem;
+        }
+        h2, h3 {
+            font-family: 'Playfair Display', serif;
+            color: #D4AF37;
+        }
+        audio {
+            width: 100%;
+            margin-top: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand podcast-title" style="font-size: 1.5rem;" href="#">Ribalta Sonora</a>
+        </div>
+    </nav>
+    <header class="jumbotron text-center">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-4">
+                    <img src="./unnamed.png" alt="Capa do Podcast Ribalta Sonora" class="cover-art mx-auto d-block">
+                </div>
+                <div class="col-md-8 text-md-start mt-4 mt-md-0">
+                    <h1 class="podcast-title">Ribalta Sonora</h1>
+                    <p class="podcast-subtitle">O Palco em Suas Orelhas</p>
+                    <p class="lead">Um podcast que puxa a cortina para explorar as histórias, os artistas e as ideias que fazem do palco um lugar mágico.</p>
+                    <div class="mt-4">
+                        <p class="mb-2">Ouça agora:</p>
+                        <a href="https://open.spotify.com/show/12345" class="btn btn-listen btn-lg me-2">Spotify</a>
+                        <a href="https://podcasts.apple.com/us/podcast/id12345" class="btn btn-listen btn-lg me-2">Apple Podcasts</a>
+                        <a href="https://podcasts.google.com/feed/12345" class="btn btn-listen btn-lg">Google Podcasts</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Episodes Section -->
+    <main class="container my-5">
+        <h2 class="mb-4">Episódios</h2>
+        <div class="card episode-card">
+            <div class="card-body">
+                <h3 class="card-title">Episódio 01: "Por que o Teatro Ainda Importa na Era do Streaming?"</h3>
+                <p class="card-text">Na era do streaming e do conteúdo infinito, investigamos o poder da experiência teatral ao vivo, a sua relevância como espelho da sociedade e sua constante capacidade de inovação.</p>
+                <!-- Substitua o 'src' pelo seu arquivo de áudio -->
+                <audio controls>
+                    <source src="./ElevenLabs_Text_to_Speech_audio.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+        </div>
+        <div class="card episode-card">
+            <div class="card-body">
+                <h3 class="card-title">Episódio 02: "Vestido de Noiva: A Revolução em Três Planos"</h3>
+                <p class="card-text">Mergulhamos na história de 'Vestido de Noiva' de Nelson Rodrigues, a peça que é o marco zero do teatro moderno brasileiro e que chocou a sociedade pela sua forma e conteúdo.</p>
+                
+                <audio controls>
+                    <source src="./ElevenLabs_2025-09-27T00_10_24_Rachel_pre_sp100_s50_sb75_se0_b_m2.mp3" type="audio/mpeg">
+                    Seu navegador não suporta o elemento de áudio.
+                </audio>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer mt-auto py-3">
+        <div class="container text-center">
+            <span class="text-muted">© 2025 Ribalta Sonora. Todos os direitos reservados.</span>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
