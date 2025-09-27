@@ -1,3 +1,4 @@
+**[Acesse a página do projeto aqui!](https://podcast-teatro-odei0uwjf-devleocarvalhoprojects.vercel.app/)**
 Desafio de Projeto DIO: Criando um Podcast com Ferramentas de IA
 🎙️ Projeto "Ribalta Sonora"
 Este repositório documenta a criação de um podcast do zero utilizando um ecossistema de ferramentas de Inteligência Artificial, como parte do Desafio de Projeto da DIO. O projeto, intitulado "Ribalta Sonora", tem como objetivo explorar temas do universo das artes cênicas, e seu episódio piloto debate a relevância do teatro na era do streaming.
@@ -44,4 +45,5 @@ Capa de podcast, arte gráfica minimalista e elegante. Uma cortina de teatro de 
 Crie um roteiro para o Episódio 01: "Por que o Teatro Ainda Importa na Era do Streaming?". Duas pessoas conversando, até 1000 palavras.
 
 (Nota: O roteiro passou por vários prompts de refinamento, como "expanda o diálogo", "altere o nome do apresentador para Ésquilo" e "limite o texto para uma versão mais concisa".)
+
 
